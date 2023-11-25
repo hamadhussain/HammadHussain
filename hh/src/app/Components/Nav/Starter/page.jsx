@@ -5,8 +5,6 @@ import '../../../globals.css'
 import { motion } from "framer-motion";
 import { useState ,useEffect } from 'react';
 
-
-
 const page = () => {
   const [Let, setLet] = useState(true);
 
