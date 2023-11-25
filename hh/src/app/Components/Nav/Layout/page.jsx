@@ -1,4 +1,5 @@
 // components/Layout.js
+'use client'
 import { useEffect } from 'react';
 
 const Layout = ({ children }) => {
