@@ -11,7 +11,7 @@
 // import L from "./Components/Nav/Layout/page";
 import { useEffect ,useState } from 'react';
 import { InfinitySpin } from  'react-loader-spinner'
-import Portfolio from './Lips/Page'
+import Portfolio from './Lips/page'
 
 export default function Home() {
   
