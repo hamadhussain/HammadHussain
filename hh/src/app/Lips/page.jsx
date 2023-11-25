@@ -10,7 +10,7 @@ import St from "../Components/Nav/Starter/page";
 import L from "../Components/Nav/Layout/page";
 import { useEffect ,useState } from 'react';
 
-const page = () => {
+const Page = () => {
     useEffect(() => {
         AOS.init({
           once: true
@@ -47,4 +47,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -5,7 +5,9 @@ import '../../../globals.css'
 import { motion } from "framer-motion";
 import { useState ,useEffect } from 'react';
 
-const page = () => {
+
+
+const Page = () => {
   const [Let, setLet] = useState(true);
 
   useEffect(() => {
@@ -49,4 +51,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

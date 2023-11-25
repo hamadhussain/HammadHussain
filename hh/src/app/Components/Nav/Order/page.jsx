@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 // import '../../globals.css';
 import '../../../globals.css'
-import {dp} from "../Order/dp.png";
+import {dp} from "./dp.png";
 // import motion  from "framer-motion";
 
 const page = () => {
