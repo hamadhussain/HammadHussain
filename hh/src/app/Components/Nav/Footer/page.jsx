@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-const page = () => {
+const Page = () => {
   return (
     <>
      <motion.div 
@@ -36,4 +36,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

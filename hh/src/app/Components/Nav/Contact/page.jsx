@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../Contact/svg.png";
 import '../../../globals.css'
 
-const page = () => {
+const Page = () => {
   return (
     <div className='flex justify-center cc gap-12  '>
                   
@@ -31,4 +31,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

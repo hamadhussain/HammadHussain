@@ -1,7 +1,8 @@
+'use client'
 import React from "react"
 import "../../../globals.css"
 import { motion } from "framer-motion";
-const page = () => {
+const Page = () => {
   return (
     <motion.div  className="flex p-7 gap-3 about "
     initial={{scale: 0, opacity: 0, y: "-100%"}}
@@ -24,4 +25,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

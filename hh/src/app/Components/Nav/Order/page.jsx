@@ -6,7 +6,7 @@ import '../../../globals.css'
 import {dp} from "./dp.png";
 // import motion  from "framer-motion";
 
-const page = () => {
+const Page = () => {
   return (
     <>
     <div className=" justify-center  fixed  bg-white  bg-bgPrimary shadow-2xl  z-40 py-8 md:px-20 px-10  w-screen flex items-center gap-96 navp">
@@ -45,4 +45,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

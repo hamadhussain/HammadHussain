@@ -1,7 +1,7 @@
 import React from 'react'
 import { html,css,js,bootstrap,tailwind,firebase,react,nodejs,mongoDb,git,github,nextjs,redux,php,mysql,jquery,java,cpp } from "../index";
 
-const page = () => {
+const Page = () => {
    const skills = [html,css,js,bootstrap,tailwind,firebase,react,nodejs,mongoDb,git,github,nextjs,redux,php,mysql,jquery,java,cpp];
 
   return (
@@ -48,4 +48,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
